@@ -13,7 +13,7 @@ const IsPhone = {
   },
   methods: {
     checkDeviceSize() {
-      this.isPhone = document.documentElement.clientWidth < 480;
+      this.isPhone = window.innerWidth < 480;
     },
   },
 };
