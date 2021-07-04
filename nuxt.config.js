@@ -1,7 +1,7 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'todskaz',
+    title: 'Tods & Kaz Day',
     htmlAttrs: {
       lang: 'en'
     },
@@ -13,15 +13,15 @@ export default {
       { name: 'title', content: 'Tods & Kaz Day' },
       { name: 'description', content: 'In celebration of Tods & Kaz Day, Happy anniversary my love' },
       { property: 'og:type', content: 'website'},
-      { property: 'og:url', content: 'https://todsandkaz.netlify.app/'},
+      { property: 'og:url', content: 'https://todsandkaz.netlify.app/todsandkaz.png'},
       { property: 'og:title', content: 'Tods & Kaz Day'},
       { property: 'og:description', content: 'In celebration of Tods & Kaz Day, Happy anniversary my love'},
-      { property: 'og:image', content: 'https://todsandkaz.netlify.app/assets/img/todskaz.gif'},
+      { property: 'og:image', content: 'https://todsandkaz.netlify.app/assets/img/todsandkaz.png'},
       { property: 'twitter:card', content: 'summary_large_image'},
       { property: 'twitter:url', content: 'https://todsandkaz.netlify.app/'},
       { property: 'twitter:title', content: 'Tods & Kaz Day'},
       { property: 'twitter:description', content: 'In celebration of Tods & Kaz Day, Happy anniversary my love'},
-      { property: 'twitter:image', content: 'https://todsandkaz.netlify.app/assets/img/todskaz.gif'},
+      { property: 'twitter:image', content: 'https://todsandkaz.netlify.app/todsandkaz.png'},
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
