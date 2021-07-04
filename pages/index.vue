@@ -58,10 +58,12 @@
 </template>
 
 <script>
+import IsPhone from '@/mixins/IsPhone';
+
 export default {
+  mixins: [IsPhone],
   data() {
     return {
-      src: require('@/assets/img/todskaz.gif'),
       cards: [
         {
           id: 1,
@@ -98,9 +100,14 @@ export default {
           text: 'I genuinely hope I was able to reciprocrate a beautiful birthday experience for you as well. I hope to celebrate more birthdays with you, love being by your side and watching you grow.',
           img: require('@/assets/img/todskaz4.png'),
         },
-      ]
-    }
-  }
+      ],
+    };
+  },
+  computed: {
+    src() {
+      return this.isPhone ? require('@/assets/img/todskaz.gif') : require('@/assets/img/todskazmob.gif')
+    },
+  },
 }
 </script>
 
