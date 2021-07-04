@@ -105,7 +105,7 @@ export default {
   },
   computed: {
     src() {
-      return this.isPhone ? require('@/assets/img/todskaz.gif') : require('@/assets/img/todskazmob.gif')
+      return !this.isPhone ? require('@/assets/img/todskaz.gif') : require('@/assets/img/todskazmob.gif')
     },
   },
 }

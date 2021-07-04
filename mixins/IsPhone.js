@@ -5,15 +5,21 @@ const IsPhone = {
     };
   },
   created() {
-    this.checkDeviceSize();
-    window.addEventListener('resize', this.checkDeviceSize);
+    if (process.client) {
+      this.checkDeviceSize();
+      window.addEventListener('resize', this.checkDeviceSize);
+    }
   },
   beforeDestroy() {
-    window.removeEventListener('resize', this.checkDeviceSize);
+    if (process.client) {
+      window.removeEventListener('resize', this.checkDeviceSize);
+    }
   },
   methods: {
     checkDeviceSize() {
-      this.isPhone = window.innerWidth < 480;
+      if (process.client) {
+        this.isPhone = window.innerWidth < 480;
+      }
     },
   },
 };
