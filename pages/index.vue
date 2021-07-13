@@ -16,7 +16,7 @@
           Happy Anniversary my love, my one and only Ife. Thank you for one of the 
           best years I’ve experienced and I attest that to our relationship, and the 
           growth we’ve been able to achieve together, you’re amazing, you’re my 
-          star girl Todimu, thank you for your patience with my annoying ass.
+          star girl Todimu. Thank you for your patience with my annoying ass,
           I love your annoying ass too. I pray for many more anniversaries and 
           celebrations with you my baby.
         </p>
@@ -44,7 +44,7 @@
         <p class="page__text mb-4">
           As we celebrate one year together, I take this opportunity to recommit to
           our relationship, to continue to work on our flaws, continue to grow and
-          learn together. To many more of this toghether, I choose you and will
+          learn together. To many more of this together, I choose you and will
           continue to choose you. I love you Todimu Sola-Idowu.
         </p>
         <div class="page__heading mb-4">
@@ -68,9 +68,9 @@ export default {
         {
           id: 1,
           title: 'Our First Kiss',
-          subtitle: '“It was akward at first”',
+          subtitle: '“It was awkward at first”',
           date: '27th, June 2020',
-          text: 'Lmaooo noone will tell you transitioning from being friends for years to being being a couple is easy, especially in a “panoramic”. But hey look at us now.',
+          text: 'Lmaooo noone will tell you transitioning from being friends for years to being a couple is easy, especially in a “panoramic”. But hey look at us now.',
           img: require('@/assets/img/todskaz1.png'),
           icon: require('@/assets/img/kiss.svg'),
         },
@@ -97,7 +97,7 @@ export default {
           title: 'Big Mummys Bitrhday',
           subtitle: '“Big Mummy’s birthday”',
           date: '6th, Jan 2021',
-          text: 'I genuinely hope I was able to reciprocrate a beautiful birthday experience for you as well. I hope to celebrate more birthdays with you, love being by your side and watching you grow.',
+          text: 'I genuinely hope I was able to reciprocate a beautiful birthday experience for you as well. I hope to celebrate more birthdays with you, love being by your side and watching you grow.',
           img: require('@/assets/img/todskaz4.png'),
         },
       ],
